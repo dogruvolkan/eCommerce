@@ -34,6 +34,7 @@ p {
   
 }
 
+
 .section-p1 {
   padding: 40px 80px;
 }
@@ -45,6 +46,10 @@ p {
 body {
   width: 100%;
   font-family: "Roboto";
+}
+
+.logo{
+  width:100px;
 }
 
 /* header */
@@ -61,6 +66,8 @@ body {
   top:0;
   left:0;
 }
+
+
 
 #header #mobile{
   display: none;
@@ -532,6 +539,124 @@ footer .col li{
   color:rgb(124, 110, 110);
  }
 
+ /* shop page */
+
+ /* shop hero */
+
+ #shop-hero{
+  background-image: url(img/banner/b1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  padding:100px 0;
+ }
+
+ #shop-hero h1 ,
+ #shop-hero  h4{
+  color:white;
+  text-align: center;
+  padding:5px 0;
+ }
+
+ /* pagination */
+
+ #pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+ }
+
+ #pagination a{
+  padding:12px;
+  color:#fff;
+  background-color: #088178;
+  border:1px solid #088178;
+  border-radius: 4px;
+  margin-right:5px;
+  font-size:17px;
+  font-weight: 500;
+  text-decoration: none;
+ }
+
+
+ /* productdetail */
+
+ #productdetail{
+  display: flex;
+  margin-top:20px;
+  justify-content: center;
+  flex-wrap: wrap;
+ }
+
+#productdetail .single-pro-image{
+  width:40%;
+  margin-right: 50px;
+}
+
+.small-img-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col{
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+.product-detail{
+  width:50%;
+  padding:40px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-detail h4{
+  padding:30px 0;
+}
+
+.product-detail select{
+  width: 120px;
+  padding:6px;
+  font-size:16px;
+  border-radius: 3px;
+  margin:15px 0;
+  border:1px solid #088178
+}
+
+.product-detail input{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  padding:6px;
+  font-size:16px;
+  border-radius: 3px;
+  margin:15px 0;
+  border:1px solid #088178
+}
+
+.product-detail input:focus{
+  outline:none;
+}
+
+.product-detail button{
+  width: 150px;
+  font-size:16px;
+  border-radius: 3px;
+  border:1px solid #088178;
+  background-color: #088178;
+  color:#fff;
+}
+
+.product-detail p{
+  text-align: left;
+  line-height: 23px;
+}
+
+#product1 p {
+  margin-bottom: 20px;
+}
+
 /* responsive */
 
 @media (max-width : 799px){
@@ -686,6 +811,21 @@ footer .col li{
     position: absolute;
     
 }
+
+ #shop-hero  h4 {
+  font-size:16px;
+}
+
+#productdetail .single-pro-image {
+  width: 90%;
+ margin-right: 0;
+}
+.product-detail {
+  width: 90%;
+}
+#product1 h2 {
+  font-size:28px;
+}
 }
 
 @media (min-width : 799px){
@@ -693,6 +833,5 @@ footer .col li{
   #navbar #close{
     display: none;
   }
-
 
 }
