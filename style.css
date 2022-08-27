@@ -657,6 +657,152 @@ footer .col li{
   margin-bottom: 20px;
 }
 
+
+/* blog */
+
+#blog-hero{
+  background-image: url(img/banner/b19.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  padding:100px 0;
+}
+
+#blog-hero h1 ,
+#blog-hero  h4{
+ color:white;
+ text-align: center;
+ padding:5px 0;
+}
+
+
+#blog-posts{
+  padding:150px 150px 0 150px;
+}
+
+.blog-post{
+  display: flex;
+  align-items: center;
+  width:100%;
+  padding-bottom:60px;
+}
+
+.blog-img{
+  width:50%;
+  margin-right:40px;
+}
+
+.blog-img h1{
+  font-size: 90px;
+  position: relative;
+  top:10px;
+  z-index: -85;
+  color:#ccc;
+}
+
+.blog-img img{
+  width:100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.blog-content{
+  width: 50%;
+}
+
+.blog-content h4,
+.blog-content p {
+    padding-bottom:15px;
+    text-align: left;
+}
+
+.blog-content span{
+  position: relative;
+} 
+
+.blog-content span::after{
+  content:"";
+  width:50px;
+  height: 1px;
+  background-color: #000;
+  position:absolute;
+  top:8px;
+  right:-60px;
+}
+
+/* about  */
+#about-hero{
+  background-image: url(img/about/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  padding:100px 0;
+}
+
+#about-hero h1 ,
+#about-hero  h4{
+ color:white;
+ text-align: center;
+ padding:5px 0;
+}
+
+#about{
+  padding:70px 70px 0 70px;
+}
+
+.about-content{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-bottom:80px;
+}
+
+.about-img{
+  width:50%;
+  margin-right:40px;
+}
+
+.about-img img{
+  width:100%;
+}
+
+.about-text{
+  width: 50%;
+}
+
+.about-text h1 ,
+.about-text p {
+ padding-bottom:30px;
+ text-align: left;
+ line-height: 22px;
+}
+
+.about-text marquee{
+  background-color: #088178;
+  color:#fff;
+  line-height: 35px;
+}
+
+
+/* app  */
+
+#app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+#app h1{
+  font-size:50px;
+}
+#app video{
+  width:60%;
+  margin:80px 150px;
+  border-radius:20px;
+}
+
 /* responsive */
 
 @media (max-width : 799px){
@@ -710,7 +856,6 @@ footer .col li{
   }
 
   #feature .fe-box {
-  
     margin: 15px;
 
   }
@@ -756,6 +901,41 @@ footer .col li{
   height: 30vh;
   padding: 20px;
 }
+
+/* blog */
+
+#blog-posts {
+  padding: 70px 70px 0 70px;
+}
+
+.blog-img img {
+  height: 250px;
+}
+
+/* about  */
+#about {
+  padding: 30px 30px 0 30px;
+}
+
+.about-content {
+  flex-wrap: wrap;
+}
+
+.about-img {
+  width: 100%;
+  margin-right: 0;
+  margin-bottom:40px;
+}
+
+.about-img img{
+  height: 400px;
+}
+
+.about-text {
+  width: 100%;
+}
+
+
   
 }
 
@@ -826,6 +1006,55 @@ footer .col li{
 #product1 h2 {
   font-size:28px;
 }
+
+/* blog */
+
+#blog-hero  h4 {
+  font-size:17px;
+}
+
+#blog-posts {
+  padding: 30px 30px 0 30px;
+}
+
+.blog-post {
+  flex-wrap: wrap;
+}
+
+.blog-img {
+  width: 100%;
+  margin-right: 0;
+}
+
+.blog-img h1 {
+  font-size: 60px;
+  top: 15px;
+}
+
+.blog-content {
+  width: 100%;
+}
+
+/* about  */
+
+.about-img img {
+  height: 200px;
+}
+
+.about-text h1{
+  font-size:35px;
+}
+
+#app h1 {
+  font-size: 35px;
+}
+
+#app video {
+  width: 80%;
+  margin: 20px 50px;
+
+}
+
 }
 
 @media (min-width : 799px){
