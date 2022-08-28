@@ -932,6 +932,124 @@ footer .col li{
  text-align: left;
 }
 
+/* cart  */
+#cart-hero{
+  background-image: url(img/about/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  padding:100px 0;
+}
+
+#cart-hero h1 ,
+#cart-hero  h4{
+ color:white;
+ text-align: center;
+ padding:5px 0;
+}
+
+#basket{
+  padding:80px;
+  overflow-x: auto;
+}
+
+ table{
+  width:100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  white-space: nowrap;
+}
+
+#basket table thead{
+  border:1px solid #e2e9e1;
+  border-left:none;
+  border-right:none;
+}
+
+#basket thead th{
+  padding:20px 0;
+}
+
+
+#basket thead tr ,
+#basket tbody tr {
+  text-align: center;
+}
+
+#basket tbody td{
+  padding-top:20px;
+}
+
+#basket tbody img{
+  width: 70px;
+}
+
+#basket table input{
+  width:40px;
+  height:30px;
+  text-align: center;
+}
+
+#cart{
+  padding:80px;
+}
+
+.cart-sum{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+
+.coupon{
+  width:50%;
+}
+
+.coupon h3{
+  font-size:25px;
+  padding:15px 0;
+}
+
+.coupon input{
+  width: 50%;
+  height: 35px;
+  padding-left:15px;
+  font-size:17px;
+  outline:none;
+  border:1px solid #ccc;
+}
+
+.coupon button{
+  padding:8px 25px;
+  background: #088178;
+  color:#fff;
+  border-radius: 0;
+}
+
+.card-totals{
+  width:50%;
+  border:1px solid #ccc;
+  padding:40px;
+}
+
+.card-totals h3{
+  font-size:25px;
+  padding:15px 0;
+}
+
+.card-totals td{
+  padding:10px 0 10px 10px;
+  border:1px solid #ccc;
+}
+
+.card-totals button{
+  margin-top:20px;
+  padding:10px 30px;
+  background: #088178;
+  color:#fff;
+  border-radius: 0;
+}
 
 /* responsive */
 
@@ -1070,7 +1188,7 @@ footer .col li{
 }
 
 .contact-area {
- flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .contact-text {
@@ -1098,6 +1216,16 @@ footer .col li{
 .message-person {
   width: 100%;
   padding: 50px;
+}
+
+#basket {
+  padding: 20px;
+}
+
+#cart {
+  padding: 20px;
+}
+
 }
 
 
@@ -1240,6 +1368,26 @@ footer .col li{
 }
 
 .message-person {
+  padding: 20px;
+}
+
+.cart-sum {
+  flex-direction: column;
+  
+}
+
+.coupon {
+  width: 100%;
+}
+
+.coupon input {
+  width: 70%;
+
+}
+
+.card-totals {
+  margin-top:30px;
+  width: 100%;
   padding: 20px;
 }
 
