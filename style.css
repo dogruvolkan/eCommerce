@@ -48,6 +48,10 @@ body {
   font-family: "Roboto";
 }
 
+html{
+  overflow-x:hidden
+}
+
 .logo{
   width:100px;
 }
