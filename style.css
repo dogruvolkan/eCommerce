@@ -960,13 +960,32 @@ footer .col li{
   white-space: nowrap;
 }
 
+#basket table td:nth-child(1){
+  width:100px;
+}
+#basket table td:nth-child(2){
+  width:100px;
+}
+#basket table td:nth-child(3){
+  width:100px;
+}
+#basket table td:nth-child(4){
+  width:100px;
+}
+#basket table td:nth-child(5){
+  width:100px;
+}
+#basket table td:nth-child(6){
+  width:100px;
+}
+
 #basket table thead{
   border:1px solid #e2e9e1;
   border-left:none;
   border-right:none;
 }
 
-#basket thead th{
+#basket thead td{
   padding:20px 0;
 }
 
@@ -1021,7 +1040,7 @@ footer .col li{
 }
 
 .coupon button{
-  padding:8px 25px;
+  padding:6px 25px;
   background: #088178;
   color:#fff;
   border-radius: 0;
@@ -1389,6 +1408,14 @@ footer .col li{
   margin-top:30px;
   width: 100%;
   padding: 20px;
+}
+
+#cart-hero {
+  padding: 50px 0;
+}
+
+#cart-hero  h4 {
+  font-size:18px;
 }
 
 }
